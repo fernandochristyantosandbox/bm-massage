@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+//PADDINGS
+.padding-left-sm{
+  padding-left: 6rem;
+}
+.padding-left-md{
+  padding-left: 9rem;
+}
+.padding-left-lg{
+  padding-left: 12rem;
+}
+.padding-right-sm{
+  padding-right: 6rem;
+}
+.padding-right-md{
+  padding-right: 9rem;
+}
+.padding-right-lg{
+  padding-right: 12rem;
+}
+.padding-top-sm{
+  padding-top: 6rem;
+}
+.padding-top-md{
+  padding-top: 9rem;
+}
+.padding-top-lg{
+  padding-top: 12rem;
+}
+.padding-bottom-sm{
+  padding-bottom: 6rem;
+}
+.padding-bottom-md{
+  padding-bottom: 9rem;
+}
+.padding-bottom-lg{
+  padding-bottom: 12rem;
+}
+
+.margin-right-md{
+  margin-right: 9rem !important;
+}
+.margin-right-sm{
+  margin-right: 6rem !important;
+}
+.margin-right-xs{
+  margin-right: 3rem !important;
+}
+.margin-right-lg{
+  margin-right: 12rem !important;
+}
+.margin0{
+  margin: 0;
+}
+
+.full-height{
+  height: 100% !important;
+}
+
+//DISPLAYS
+.flex{
+  display: flex;
+}
+.inline-block{
+  display: inline-block;
+}
+.block{
+  display: block;
+}
+
+.center{
+  margin : auto;
+  text-align: center;
+}
+
+/* basic positioning */
+.legend { list-style: none; padding: 0}
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .available { background-color: #badc58; }
+.legend .almostfull { background-color: #ffbe76; }
+.legend .full { background-color: #eb4d4b; }
+
+
+.title-with-line+* {
+  border-top: solid 2px #adac97;
+  padding-top: 28px;
+  margin-top: -28px;
+}

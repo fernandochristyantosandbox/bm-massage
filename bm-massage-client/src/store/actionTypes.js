@@ -1,0 +1,12 @@
+//ALL USERS
+export const SET_CURRENT_USER = 'SET_CURRENT_USER'
+
+//OWNER ACTION TYPES
+export const OWNER_SIGNIN = 'OWNER_SIGNIN';
+
+//ERRORS
+export const ADD_ERROR = 'ADD_ERROR'
+export const REMOVE_ERROR = 'REMOVE_ERROR'
+
+//NAVS
+export const GET_NAVS_BY_ROLE = 'GET_NAVS_BY_ROLE'
